@@ -8,5 +8,9 @@
 .uiDev{
   text-align: center;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 400;
+}
+.ms{
+	    background: #FFC107;
+    font-weight: 400;
 }
