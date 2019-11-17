@@ -1,0 +1,20 @@
+.container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+z-index: -1;
+}
+.get-touch{
+	font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    padding: 10px;
+}
+.font-weight700{
+	font-weight: 700;
+}
+.margin10{
+	margin: 10px 0px;
+}

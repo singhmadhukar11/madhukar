@@ -1,9 +1,99 @@
-<div class="container height-56">
+<div style="background-color: #dbe3e7" class="height-56">
+<div class="card">
+  <div class="card-body container">
+  	
+  	<div class="row">
+  		<div class="col-md-1">
+  			<img src="assets/avatar2.png" class="avatar-img">
+  		</div>
+  		<div class="col-md-6">
+  			<div class="font-weight-600 font-size-18">Madhukar Singh</div>
+  			<div>UI Developer</div>
+  			<div>
+          <a href="www.facebook.com/madhukarsingh" class="fa fa-facebook"></a>
+          <a href="www.linkedin.com/madhukarsingh" class="fa fa-linkedin"></a>
+          <a href="www.instagram.com/madhukarsingh" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-skype"></a>
+        </div>
+  		</div>
+  	</div>
+  
+  </div>
+</div>
+<div class="container">
+<div class="row">
+
+<div style="width: 65%">
+	<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">About Me</h5>
+    <p class="card-text">I'm a UI developer with 2 years of professional experience, based in Indore.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Experience</h5>
+    <p class="card-text">2 Years Experience As UI Developer At Innoeye Technology.</p>
+  </div>
+</div>
+
+</div>
+
+<div style="width: 35%">
+
+	<div class="card">
+  <div class="card-body card-link">
+    <div><span><i class="fa fa-map-marker"></i></span><span>Indore, INDIA</span></div>
+    <div><span><i class="fa fa-envelope-o"></i></span><span class="links">singhmadhukar11@gmail.com</span></div>
+    <div><span><i class="fa fa-link"></i></span><span class="links">madhukarsingh.xyz</span></div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+<div *ngFor = "let data of status" style="margin: 10px 0px;">
+  <div class="skills-txt">
+   {{data.title}}
+  </div>
+  <div class="skills-bar">
+   <div class="progress" style="height: 0.8rem;">
+  			<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="background-color: #4dc16d;" [style.width.%]=data.percentage>{{data.percentage}}</div>
+	</div>
+  </div>
+
+
+  </div>
+</div>
+
+</div>
+</div>
+
+
 	
+
+</div>
+<div>
+
+
+
+<!-- <div>Hey I M Madhukar Singh</div>
 	<div class="ui-about">
 		<span>
 			I'm a UI developer with 2+ years of professional experience, based in Indore.
 		</span>
+	</div> -->
+
+	<!-- <div class="dev-skills">
+	<span>Development Skills</span>
 	</div>
 
-</div>
+<div class="modal-body row" *ngFor = "let data of status">
+  <div class="col-md-2 skills-txt">
+   {{data.title}}
+  </div>
+  <div class="col-md-8 skills-bar">
+   <div class="progress">
+  			<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [style.width.%]=data.percentage>{{data.percentage}}</div>
+	</div>
+  </div>
+</div> -->

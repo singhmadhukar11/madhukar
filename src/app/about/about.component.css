@@ -4,3 +4,31 @@
     font-weight: 500;
     padding: 10px;
 }
+.dev-skills{
+	text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+.skills-txt{
+    font-weight: 600;
+        font-size: 14px;
+}
+.skills-bar{
+	padding-top: 5px;
+}
+.container .card{
+    margin: 10px;
+}
+.avatar-img{
+    height: 75px;
+    border-radius: 50%;
+}
+.card-link .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 31px;
+    text-align: center;
+    text-decoration: none;
+        margin: 0px;
+}
