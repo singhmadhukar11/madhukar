@@ -9,7 +9,8 @@ const routes: Routes = [
 	{ path: 'home', component: MainComponent },
 	{ path: 'about', component: AboutComponent },
 	{ path: 'skills', component: SkillsComponent },
-	{ path: 'contact', component: ContactComponent }
+	{ path: 'contact', component: ContactComponent },
+	{ path: 'login', loadChildren: () => import('./login/login.module').then(m => m.LoginModule) }
 ];
 
 @NgModule({
