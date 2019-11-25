@@ -18,3 +18,12 @@ z-index: -1;
 .margin10{
 	margin: 10px 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .cs-txt-center {
+    text-align: center;
+  }
+  .md-query-15{
+  	margin-bottom: 15px;
+  }
+}

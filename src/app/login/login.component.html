@@ -1,15 +1,13 @@
 <div class = "container">
 	<div class="wrapper">
-		<form  name="Login_Form" class="form-signin">       
+		<div  name="name" class="form-signin">       
 		    <h3 class="form-signin-heading">Admin Panel</h3>
 			  <hr class="colorgraph"><br>
 			  
-			  <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
-			  <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>     		  
+			  <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" autocomplete="off" [formControl]="userName"/>
+			  <input type="password" class="form-control" name="Password" placeholder="Password" required="" autocomplete="off" [formControl]="Password"/>     		  
 			 
-			  <button class="btn btn-lg btn-primary btn-block"  routerLink="/login" name="Submit" value="Login" type="Submit">Login</button>  			
-		</form>			
+			  <button class="btn btn-lg btn-primary btn-block" (click)="signIn()" name="Submit" value="Login" type="Submit">Login</button>  			
+		</div>			
 	</div>
 </div>
-
-<!-- <button class="btn btn-lg btn-primary btn-block"  routerLink="uinterface" name="Submit" value="Login" type="Submit">Login</button> -->

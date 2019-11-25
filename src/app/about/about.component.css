@@ -32,3 +32,25 @@
     text-decoration: none;
         margin: 0px;
 }
+.card-width-65{
+    width: 65%
+}
+.card-width-35{
+    width: 35%
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cs-txt-center {
+    text-align: center;
+  }
+  .md-query-15{
+    margin-bottom: 15px;
+  }
+  .card-width-65{
+    width: 100%
+}
+.card-width-35{
+    width: 100%
+}
+}
