@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
+import { SocialIconsComponent } from './social-icons/social-icons.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { environment } from '../environments/environment';
     MainComponent,
     AboutComponent,
     SkillsComponent,
-    ContactComponent
+    ContactComponent,
+    SocialIconsComponent
   ],
   imports: [
     BrowserModule,

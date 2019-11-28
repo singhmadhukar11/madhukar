@@ -1,0 +1,9 @@
+.margin-10{
+	margin: 10px;
+}
+.margin-30{
+	    margin: 30px;
+}
+.height-70 {
+    height: calc(100vh - 70px);
+}
