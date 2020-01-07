@@ -26,6 +26,7 @@ export class LoginComponent implements OnInit {
 
 
   ngOnInit() {
+
      this._users = this.afs.collection('users').valueChanges();
   }
 

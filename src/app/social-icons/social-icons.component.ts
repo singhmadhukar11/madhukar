@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-social-icons',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social-icons.component.css']
 })
 export class SocialIconsComponent implements OnInit {
-
+@Input() name: string;
   constructor() { }
 
   ngOnInit() {

@@ -14,6 +14,5 @@ private dbPath = '/admin';
 
    createCustomer(admin: admin): void {
     this.customersRef.add({...admin});
-    debugger;
   }
 }

@@ -18,19 +18,21 @@
 <div class="row">
 
 <div class="card-width-65">
-	<div class="card">
+	<div class="card" *ngFor = "let data of rhsSide">
   <div class="card-body">
-    <h5 class="card-title">About Me</h5>
-    <p class="card-text">I'm a UI developer with 2 years of professional experience, based in Indore.</p>
+    <h5 class="card-title">{{data.title}}</h5>
+    <p class="card-text">{{data.description}}</p>
   </div>
 </div>
 
+<!--
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">Experience</h5>
-    <p class="card-text">2 Years Experience As UI Developer At Innoeye Technology.</p>
+    <p class="card-text">{{experience}}</p>
   </div>
 </div>
+-->
 
 </div>
 
